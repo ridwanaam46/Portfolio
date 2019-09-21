@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bac"
+    tools:context=".MainActivity">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    android:src="@drawable/ridwan1"
+    >
+
+
+</ImageView>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Ridwan"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/loc"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bandung, Indonesia"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="-28dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        card_view:cardCornerRadius="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_wa"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/wa" />
+
+
+            <ImageView
+                android:id="@+id/img_ig"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ig" />
+
+
+            <ImageView
+                android:id="@+id/img_linkedin"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/link" />
+
+
+            <ImageView
+                android:id="@+id/img_github"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/git" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/putih"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Me"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="22dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Now"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="4dp"
+                />
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:id="@+id/scrolview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:ignore="UselessParent">
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+                <androidx.cardview.widget.CardView
+                    card_view:cardCornerRadius="7dp"
+                    android:layout_width="120dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/team"
+                        android:layout_width="110dp"
+                        android:layout_height="75dp"/>
+
+                    <Button
+                        android:id="@+id/about"
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="About Me"
+                        android:layout_width="80dp"
+                        android:textColor="@color/putih"
+                        android:background="@drawable/about"
+                        android:layout_height="35dp"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    card_view:cardCornerRadius="7dp"
+                    android:layout_width="120dp"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/card"
+                        android:layout_width="110dp"
+                        android:layout_height="75dp"/>
+
+                    <Button
+                        android:id="@+id/btnsertif"
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="45dp"
+                        android:background="@drawable/certif"
+                        android:gravity="center"
+                        android:text="Certification"
+                        android:textColor="@color/putih"
+                        android:textSize="10dp" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    card_view:cardCornerRadius="7dp"
+                    android:layout_width="120dp"
+                    android:layout_height="170dp">
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/skil"
+                        android:layout_width="110dp"
+                        android:layout_height="75dp"/>
+
+                    <Button
+                        android:id="@+id/btnskill"
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Skills"
+                        android:layout_width="80dp"
+                        android:textColor="@color/putih"
+                        android:background="@drawable/skill"
+                        android:layout_height="35dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                card_view:cardCornerRadius="7dp"
+                android:layout_width="120dp"
+                android:layout_height="170dp">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/project"
+                    android:layout_width="110dp"
+                    android:layout_height="75dp"/>
+
+                <Button
+                    android:id="@+id/btnproject"
+                    android:layout_marginTop="45dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="10dp"
+                    android:text="Project"
+                    android:layout_width="80dp"
+                    android:textColor="@color/putih"
+                    android:background="@drawable/skill"
+                    android:layout_height="35dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

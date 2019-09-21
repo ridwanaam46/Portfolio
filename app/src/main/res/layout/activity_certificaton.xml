@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Certificaton">
+
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="172dp">
+
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:src="@drawable/lengkungan">
+
+        </ImageView>
+
+<LinearLayout
+
+android:layout_marginLeft="25dp"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ridwan"/>
+
+    <LinearLayout
+      android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Ridwan"
+            android:textColor="@color/putih"/>
+
+
+        <TextView
+            android:textSize="13dp"
+            android:textColor="@color/putih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android rogrammer"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    </FrameLayout>
+    <LinearLayout
+       android:gravity="center"
+        android:layout_marginTop="-95dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/carddm"
+            android:layout_width="140dp"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+               android:src="@drawable/digital"/>
+
+            <TextView
+                android:textSize="11dp"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certification"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digital Marketing"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardandroid"
+            android:layout_marginLeft="15dp"
+            android:layout_width="140dp"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+               android:src="@drawable/android"/>
+            <TextView
+                android:textSize="11dp"
+                android:layout_marginTop="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certification"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:layout_marginTop="105dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="android Beginner"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+android:id="@+id/cardscrum"
+            android:layout_width="140dp"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:src="@drawable/scrum1"/>
+
+            <TextView
+                android:textSize="11dp"
+                android:layout_marginTop="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certification"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:layout_marginTop="105dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scrum Master 1"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardsap"
+            android:layout_marginLeft="15dp"
+            android:layout_width="140dp"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sap"/>
+
+            <TextView
+                android:textSize="11dp"
+                android:layout_marginTop="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certification"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:layout_marginTop="105dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAP Fundamental"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:orientation="horizontal"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardscm100"
+            android:layout_width="140dp"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sap"/>
+            <TextView
+                android:textSize="11dp"
+                android:layout_marginTop="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certification"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:layout_marginTop="105dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCM 100"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardscm300"
+            android:layout_marginLeft="15dp"
+            android:layout_width="140dp"
+            android:layout_height="125dp">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+              android:src="@drawable/sap"/>
+            <TextView
+                android:textSize="11dp"
+                android:layout_marginTop="90dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Certification"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textSize="8dp"
+                android:layout_marginTop="105dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCM 300"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

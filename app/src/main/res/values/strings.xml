@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">portfolio</string>
+    <string name="about">I’m fresh graduated from Telkom University as bachelor informaton system majors and my GPA 3.0. I find job Programmer developers even though it\'s so difficult, but I like it when I do it.</string>
+    <string name="OpenData">Open Data merupakan keterbukaan data yang secara bebas di akses publik, sehingga mempermudah publik mengetahui data yang dibtuhkan</string>
+    <string name="portfolio">Aplikasi portfolio berbasis mobile, data portfolio pribadi bisa dilihat pada aplikasi ini</string>
+    <string name="aset">Aplikasi kumpulan aset pribadi, tujuannya agar bisa mendata aset yang dimiliki</string>
+    <string name="gadai">Aplikasi Gadai Online berbasi website, barang yang ingin digadaikan bisa dilakukan secara online</string>
+
+</resources>

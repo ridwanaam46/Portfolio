@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bac"
+    android:layout_height="match_parent"
+    tools:context=".Project">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+       <androidx.cardview.widget.CardView
+        app:cardCornerRadius="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:paddingRight="15dp"
+                   android:orientation="vertical"
+                   android:layout_width="150dp"
+                   android:layout_height="match_parent">
+
+
+                   <TextView
+                       android:layout_marginTop="20dp"
+                       android:layout_marginLeft="20dp"
+                       android:textColor="@color/colorPrimary"
+                       android:text="Open Data"
+                       android:layout_width="130dp"
+                       android:layout_height="wrap_content"/>
+
+                   <View
+                       android:layout_marginLeft="20dp"
+                       android:background="@color/colorPrimary"
+                       android:layout_width="25dp"
+                       android:layout_height="1dp"
+                       android:visibility="visible"/>
+                   <TextView
+                       android:layout_marginTop="5dp"
+                       android:textSize="8dp"
+                       android:text="@string/OpenData"
+                       android:layout_marginLeft="20dp"
+                       android:layout_width="130dp"
+                       android:layout_height="wrap_content"/>
+
+                   <Button
+                       android:id="@+id/findopendata"
+                   android:textColor="@color/putih"
+                       android:layout_marginTop="15dp"
+                       android:background="@drawable/about"
+                       android:layout_marginLeft="18dp"
+                       android:textSize="7dp"
+                       android:text="Find Project"
+                       android:layout_width="90dp"
+                       android:layout_height="25dp"/>
+
+               </LinearLayout>
+
+               <ImageView
+                   android:src="@drawable/data"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+           </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:paddingRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Portfolio"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="25dp"
+                        android:layout_height="1dp"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="8dp"
+                        android:text="@string/portfolio"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/findportofolio"
+                        android:textColor="@color/putih"
+                        android:layout_marginTop="33dp"
+                        android:background="@drawable/about"
+                        android:layout_marginLeft="18dp"
+                        android:textSize="7dp"
+                        android:text="Find Project"
+                        android:layout_width="90dp"
+                        android:layout_height="25dp"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/portfolio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:paddingRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Aset Pribadi"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="25dp"
+                        android:layout_height="1dp"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="8dp"
+                        android:text="@string/aset"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/findaset"
+                        android:textColor="@color/putih"
+                        android:layout_marginTop="33dp"
+                        android:background="@drawable/about"
+                        android:layout_marginLeft="18dp"
+                        android:textSize="7dp"
+                        android:text="Find Project"
+                        android:layout_width="90dp"
+                        android:layout_height="25dp"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/aset"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:paddingRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Gadai Online"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorPrimary"
+                        android:layout_width="25dp"
+                        android:layout_height="1dp"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="7dp"
+                        android:text="@string/gadai"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:id="@+id/findgadai"
+                        android:textColor="@color/putih"
+                        android:layout_marginTop="28dp"
+                        android:background="@drawable/about"
+                        android:layout_marginLeft="18dp"
+                        android:textSize="7dp"
+                        android:text="Find Project"
+                        android:layout_width="90dp"
+                        android:layout_height="25dp"/>
+
+
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/gadai"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

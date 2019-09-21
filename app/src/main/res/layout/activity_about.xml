@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".about">
+
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="172dp">
+
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:src="@drawable/lengkungan">
+
+    </ImageView>
+
+    </FrameLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="-120dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/ridwan"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muhammad Ridwan"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Programmer"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btncv"
+        android:textSize="11dp"
+        android:textColor="@color/putih"
+        android:background="@drawable/aboutme"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="Download CV"/>
+
+    <View
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#d5d5d5"
+        android:visibility="visible"
+        android:layout_width="290dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="11dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"/>
+    <HorizontalScrollView
+        android:id="@+id/scrolviewabout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_margin="4dp"
+                android:text="Photoshop"
+                android:textSize="7dp"
+                android:textColor="#727272"
+                android:background="@drawable/aboutskil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:layout_margin="4dp"
+                android:text="Adobe XD"
+                android:textSize="7dp"
+                android:textColor="#727272"
+                android:background="@drawable/aboutskil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:layout_margin="4dp"
+                android:text="Android"
+                android:textSize="7dp"
+                android:textColor="#727272"
+                android:background="@drawable/aboutskil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:layout_margin="4dp"
+                android:text="PHP"
+                android:textSize="7dp"
+                android:textColor="#727272"
+                android:background="@drawable/aboutskil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:layout_margin="4dp"
+                android:text="CSS"
+                android:textSize="7dp"
+                android:textColor="#727272"
+                android:background="@drawable/aboutskil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:layout_margin="4dp"
+                android:text="HTML"
+                android:textSize="7dp"
+                android:textColor="#727272"
+                android:background="@drawable/aboutskil"
+                android:layout_width="70dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>
