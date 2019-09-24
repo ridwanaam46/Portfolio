@@ -24,7 +24,7 @@ public class about extends AppCompatActivity {
         cvbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri webpage = Uri.parse("https://drive.google.com/drive/folders/1YEhtzfDKerT2U6Y9Pt8xmGZM0F5ALjQn6");
+                Uri webpage = Uri.parse("https://drive.google.com/drive/folders/1YEhtzfDKerT2U6Y9Pt8xmGZM0F5ALjQn");
                 Intent webIntencv = new Intent(Intent.ACTION_VIEW, webpage);
                 startActivity(webIntencv);
             }

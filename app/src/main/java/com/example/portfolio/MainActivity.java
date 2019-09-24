@@ -14,8 +14,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 Button skillbtn, sertifbtn, aboutbtn, projectbtn;
-HorizontalScrollView SCview;
-ImageView IG, WA, Linkedin, Github;
+HorizontalScrollView SCview, scview;
+ImageView IG, WA, Linkedin, Github, drible;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +30,19 @@ ImageView IG, WA, Linkedin, Github;
         sertifbtn = findViewById(R.id.btnsertif);
         aboutbtn = findViewById(R.id.about);
         projectbtn = findViewById(R.id.btnproject);
+        drible = findViewById(R.id.img_drible);
+        scview = findViewById(R.id.scsosmed);
+
+        scview.setHorizontalScrollBarEnabled(false);
+
+        drible.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri webpage = Uri.parse("https://dribbble.com/Ridwanaam");
+                Intent webIntendrib = new Intent(Intent.ACTION_VIEW, webpage);
+                startActivity(webIntendrib);
+            }
+        });
 
         projectbtn.setOnClickListener(new View.OnClickListener() {
             @Override
